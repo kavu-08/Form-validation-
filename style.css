@@ -1,0 +1,17 @@
+body{
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+    max-width: 600px;
+}
+
+.invalid-feedback {
+    display: none;
+}
+
+input.is-invalid ~c .invalid-feedback {
+    display: block;
+}
